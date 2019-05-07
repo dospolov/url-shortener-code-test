@@ -2,9 +2,10 @@
   "name": "farmdrop-test",
   "version": "0.0.1",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon -r esm main.js"
+    "start": "nodemon -r esm index.js",
+    "test": "jest"
   },
   "author": "dospolov",
   "license": "MIT",
@@ -16,5 +17,12 @@
     "nodemon": "^1.19.0",
     "path-parser": "^4.2.0",
     "valid_url": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
   }
 }

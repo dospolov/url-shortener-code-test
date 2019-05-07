@@ -16,7 +16,4 @@ app.use((req, res, next) => {
 
 routes(app)
 
-const PORT = 3000
-app.listen(PORT, () => console.log(`server started`))
-
-
+export default app
