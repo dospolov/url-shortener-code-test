@@ -4,9 +4,8 @@
 
 ```
 npm i
-```
-``` 
 npm run start
+npm run test
 ```
 from server folder
 
