@@ -1,5 +1,14 @@
 # Url Shortener Code Test
 
+## Guide
+
+``` 
+npm run start
+```
+from server folder
+
+___
+
 Without using an external database, we'd like you to create a URL shortening
 service. The URLs do not need to persist between restarts, but should be
 shareable between different clients while the server is running.

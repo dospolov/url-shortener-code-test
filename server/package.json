@@ -1,0 +1,20 @@
+{
+  "name": "farmdrop-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon -r esm main.js"
+  },
+  "author": "dospolov",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "nanoid": "^2.0.1",
+    "nodemon": "^1.19.0",
+    "path-parser": "^4.2.0",
+    "valid_url": "^1.1.1"
+  }
+}
