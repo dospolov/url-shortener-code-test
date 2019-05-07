@@ -2,6 +2,9 @@
 
 ## Guide
 
+```
+npm i
+```
 ``` 
 npm run start
 ```
