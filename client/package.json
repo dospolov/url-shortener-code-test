@@ -1,0 +1,33 @@
+{
+  "name": "farmdrop-test-client",
+  "version": "0.0.1",
+  "dependencies": {
+    "@craco/craco": "^4.1.0",
+    "antd": "^3.16.1",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-cache-instorage": "^0.2.4",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "apollo-link-rest": "^0.7.2",
+    "craco-antd": "^1.10.0",
+    "graphql": "^14.2.1",
+    "graphql-anywhere": "^4.2.1",
+    "graphql-tag": "^2.10.1",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.4",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^2.1.8"
+  },
+  "scripts": {
+    "start": "craco start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

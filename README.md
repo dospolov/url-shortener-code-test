@@ -9,6 +9,12 @@ npm run test
 ```
 from server folder
 
+```
+npm i
+npm run start
+```
+from client folder
+
 ___
 
 Without using an external database, we'd like you to create a URL shortening
